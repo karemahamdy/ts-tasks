@@ -7,14 +7,14 @@ interface ToDO  {
   title: string,
   completed: boolean 
 }
-let id: number, title: string, completed: boolean;
+// let id: number, title: string, completed: boolean;
 
 axios.get<ToDO>(url)
   .then(response => {  
     console.log(response.data);
-    id = response.data.id
-    title = response.data.title
-   completed = response.data.completed  
+  let id = response.data.id
+let title = response.data.title
+let completed = response.data.completed  
 console.log(
   id, title, completed
 )
