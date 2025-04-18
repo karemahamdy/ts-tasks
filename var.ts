@@ -51,5 +51,10 @@ const throwError = (message: string): void => {
   }
 };
 
+// Array 
+let arr: number[] = [10, 20, 30]
+let arr1: string[] = ["red", "yellow", "black"]
 
+// Tuple
+let arr2: [string, number, boolean] = ["red", 10, true] 
 
