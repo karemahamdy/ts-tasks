@@ -56,5 +56,11 @@ let arr: number[] = [10, 20, 30]
 let arr1: string[] = ["red", "yellow", "black"]
 
 // Tuple
-let arr2: [string, number, boolean] = ["red", 10, true] 
+let arr2: [string, number, boolean] = ["red", 10, true]
+
+type arr3 = [string, number, boolean] 
+let arr3 = ["red", 10, true]
+
+
+
 
