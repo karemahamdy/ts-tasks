@@ -36,3 +36,7 @@ const sum1 = (a: number, b: number) : number  => {
   return a + b
 }
 
+// or without type of return 
+const sum2 = (a: number, b: number)   => {
+  return a + b
+}
