@@ -40,3 +40,14 @@ const sum1 = (a: number, b: number) : number  => {
 const sum2 = (a: number, b: number)   => {
   return a + b
 }
+
+const logger = (message: string): void => {
+  console.log(message);
+};
+
+const throwError = (message: string): void => {
+  if (!message) {
+    throw new Error(message);
+  }
+};
+
